@@ -28,7 +28,7 @@ const year =  tempDate.getFullYear();
 const getMonth = tempDate.getMonth();
 const day = tempDate.getDate();
 
-const futureDate =  new Date(year, getMonth, day + 60, 12, 0);
+const futureDate =  new Date(year, getMonth, day + 55, 12,0);
 const hour =  futureDate.getHours();
 const mins = futureDate.getMinutes();
 // const secs =  futureDate.getSeconds();
